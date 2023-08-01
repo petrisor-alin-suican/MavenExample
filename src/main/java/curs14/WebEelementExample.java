@@ -12,7 +12,7 @@ public class WebEelementExample {
 	@BeforeClass                   
 	public void setup() {
 		
-		
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\suicpet\\eclipse-workspace\\MavenExample\\src\\main\\java\\webdriver\\chromedriver\\windows\\chromedriver.exe");
 		//selenium 3     varianta1
 		//System.setProperty("webdriver.chrome.driver", "...path catre chromedriver.exe");
 		//driver = new ChromeDriver();
